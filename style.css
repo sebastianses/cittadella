@@ -235,11 +235,40 @@ h1{
 }
 
 .texto-conocenos2{
-  margin-top: 5em;
+  margin-top: 2em;
+}
+
+/* ENTREGA */
+
+
+#pantalla-entrega{
+  height: 80vh;
+  width: 100vw;
+  background-color:rgb(253, 247, 237);
+  margin-top:5vh;
+  text-align:center;
+  font-size:2em;
+  line-height:1.3em;
+  padding: 15%;
+  font-style: italic;  
+  text-justify:center;
 }
 
 
+.ubicaciones{
+  display:flex;
+  flex-direction:row;
+}
 
+.palermo, .padua {
+  width:50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  border: 1px solid black;
+}
 /* FOOTER */
 
 .texto-footer{
@@ -259,12 +288,8 @@ footer div a:hover{
   font-size: 2.1em;
 }
 
-/*
-.footer-conocenos{
-  margin-top: 30vh;
-  position:relative;
-}
-*/
+
+
 
 /* ---------- VISTA TABLET ---------- */
 @media only screen and (max-width: 880px) {
