@@ -43,7 +43,6 @@ footer{
     height:15vh;
     width: 100vw;
     bottom: 0;
-    position: absolute;
     background-color:papayawhip;
     text-align:center;
     padding-top:1em;
@@ -140,7 +139,6 @@ ul li a:hover::after {
     height:72vh;
     text-align:center;
     padding-top:10%;
-    
 }
   
 .pantalla-derecha{
@@ -212,6 +210,32 @@ h1{
   color: #fc6e6e;
 }
 
+
+/* CONOCENOS */
+
+#pantalla-conocenos{
+  height: 80vh;
+  width: 100vw;
+  background-color:rgb(253, 247, 237);
+  margin-top:18vh;
+  display: flex;
+  text-align:center;
+  flex-direction:column;
+  font-size:2em;
+  line-height:1.3em;
+  padding: 10%;
+  margin:10em;
+  font-style: italic;  
+  text-justify:center;
+}
+
+.texto-conocemos1{
+  display: inline-block;
+  text-align:center;
+  text-justify:center;
+}
+
+
 /* FOOTER */
 
 .texto-footer{
@@ -230,6 +254,11 @@ footer div a:hover{
   color: #fc6e6e;
   font-size: 2.1em;
 }
+
+.footer-conocenos{
+  margin-top: auto;
+}
+
 
 /* ---------- VISTA TABLET ---------- */
 @media only screen and (max-width: 880px) {
