@@ -306,9 +306,10 @@ footer div a:hover{
   .botones-home{
     flex-direction:column;
     align-items:center;
-
   }
-
+  .boton-conocenos{
+    margin-top:2em;
+  }
   .boton-catalogo{
     margin-top:2em;
   }
