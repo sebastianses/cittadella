@@ -8,7 +8,7 @@
 
 body{
   font-size:100%;
-  min-height:100vh;
+  height:100vh; /*aca era min-height*/
   width:100%;
   margin: auto;
   position:relative;
