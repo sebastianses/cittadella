@@ -300,7 +300,7 @@ footer div a:hover{
   }
 
   .boton-conocenos, .boton-catalogo{
-    transform: scale(0.0);
+    transform: scale(0.5);
   }
 
   .botones-home{
@@ -315,14 +315,16 @@ footer div a:hover{
 
   .pantalla-izquierda{
     width:100vw;
-    height:30vh;
+    height:25vh;
     margin-bottom:20vh;
   }
 
   .pantalla-derecha{
     width:100vw;
     height:50vh;
+    margin-top:25vh;
     margin-bottom: 4vw;
+    padding-top:-5em;
   }
 
   #carousel{
@@ -352,7 +354,6 @@ footer div a:hover{
 
   /* FOOTER CELULAR */
 
-  
   footer{
     height:10vh;
     margin:0;
@@ -368,5 +369,9 @@ footer div a:hover{
     font-size:3.5vw;
     margin-top:-1em;
   }
-
+  
+  footer div a:hover{
+  color: #fc6e6e;
+  font-size: 3.6vw;
   }
+}
