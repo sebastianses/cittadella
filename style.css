@@ -279,7 +279,7 @@ footer div a:hover{
     flex-direction: column;
     flex-wrap: nowrap;
     width:100vw;
-    height:100vh;
+    height:150vh;
     margin-top:7vh;
   }
 
@@ -300,7 +300,7 @@ footer div a:hover{
   }
 
   .boton-conocenos, .boton-catalogo{
-    transform: scale(0.5);
+    transform: scale(0.7);
   }
 
   .botones-home{
