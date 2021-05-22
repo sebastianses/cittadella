@@ -242,30 +242,53 @@ ul li a:hover::after {
 
 /* PRODUCTOS */
 
-
-.main-productos{
-  width: 100vw;
-  margin-bottom: 35px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} 
-
-.lista-productos{
-  width:100vw;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;  
+.text-catalogo{
+  font-size:2em;
+  line-height:1.3em;
+  font-style: italic;  
+  padding-top:20vh;
+  text-justify:center;
+  display:20%;
 }
 
-/*
-.producto{
+.main-productos{
   width: 100%;
-  margin:10px;
-  display: flex;
-  flex-direction: column;
+  height: 85vh;
+  margin-top:5vh;
+  justify-content: center;
+  text-align: center;
+} 
+
+.lista-productos1{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  justify-content: space-between;
   align-items: center;
-}*/
+  margin-top:10vh;
+}
+
+.lista-productos2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10vh;
+}
+
+.producto img:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+
+.lista-productos .producto{
+  transform:scale(0.3)
+}
+
 
 /* ENTREGA */
 
