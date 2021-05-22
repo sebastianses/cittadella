@@ -13,6 +13,8 @@ body{
   margin: auto;
   position:relative;
   padding-bottom: 1000px;
+  background-color:rgb(253, 247, 237);
+
 }
 
 .body-conocenos{
@@ -251,13 +253,15 @@ h1{
   line-height:1.3em;
   padding: 15%;
   font-style: italic;  
-  text-justify:center;
-}
+  text-justify:center;  
+  display:20%;
 
+}
 
 .ubicaciones{
   display:flex;
   flex-direction:row;
+  padding-top: 2em;
 }
 
 .palermo, .padua {
@@ -266,9 +270,47 @@ h1{
   align-items: center;
 }
 
-iframe{
-  border: 1px solid black;
+.mapa{
+  padding-top: 1em;
 }
+
+.anticipacion{
+  padding-top: 3em;
+}
+
+
+/* CONTACTO */ 
+
+
+.container-form{
+  height: 80vh;
+  width: 100vw;
+  background-color:rgb(253, 247, 237);
+  margin-top:5vh;
+  display: flex;
+  flex-direction:column;
+  text-align:center;
+  font-size:1.5em;
+  line-height:1.3em;
+  padding: 15%;
+  font-style: italic;  
+  text-justify:center;
+  display:20%;
+}
+.container-form label {
+  padding-right:1em;
+}
+
+.container-form h2{
+  padding-bottom:1.5em;
+  margin-top:-1em;
+}
+
+.container-form input, textarea{
+  border-radius:30px;
+  padding:10px;
+}
+
 /* FOOTER */
 
 .texto-footer{

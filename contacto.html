@@ -32,33 +32,28 @@
           </ul>
         </div>
         
-        <section id="pantalla-entrega">
-            <div class="puntos">
-                <p>Actualmente poseemos dos puntos de entrega: </p>
-            </div> 
-            <div class="ubicaciones">
-                <div class="palermo">
-                    <p>Alto Palermo:</p>
-                    <iframe class="mapa" width="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.1565876364402!2d-58.4113041708!3d-34.58831989471151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca83d2aa1521%3A0xc7a941fe0d021ba0!2sAlto%20Palermo!5e0!3m2!1sen!2sar!4v1619918611315!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="padua">
-                    <p>San Antonio de Padua:</p>
-                    <iframe class="mapa" width="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.7748564833605!2d-58.700722540635056!3d-34.66607311152851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf86ff938a4d%3A0x851ae1c7fc04dca0!2sEstaci%C3%B3n%20San%20Antonio%20De%20Padua!5e0!3m2!1sen!2sar!4v1619920372925!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="anticipacion"> <p>¡ Siempre recorda de coordinar con 24 hrs. de anticipación !</p>
-            </div>
+        <section class="container-form">
+            <h2>Contactanos por dudas, consultas o disponibilidad:</h2>
+            <form action="dataform.html" method="POST">
+                <label for="firstname">Nombre:   </label><input size="30" required type="text" name="firstname" placeholder="Ingrese su nombre aquí..." >   <br><br>
+                <label for="lastname">Apellido:  </label><input size="30"  type="text" name="lastname" placeholder="Ingrese su apellido aquí...">  <br><br>
+                <label for="telefono">Telefono:  </label><input type="tel" name="telefono" required placeholder="Ingrese su telefono aquí ...." >  <br><br>
+                <label for="mail">Mail:  </label><input type="email" name="mail" required>  <br><br>
+                <textarea name="Comentarios" rows="7" cols="40"required placeholder="Dejanos tus comentarios"></textarea> <br>
+                <input type="submit" value="Enviar">
+            </form>
         </section>
 
 
 
-        <footer class="footer-conocenos">
+        <footer>
             <div>
                 <a class="logoinsta" href="https://www.instagram.com/cittadellastore/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <p class="texto-footer">Seguinos en instagram para ver novedades!</p>
+                <p>Seguinos en instagram para ver novedades y ofertas !</p>
             </div>
         </footer>
-    </div>  
+  </div>
+
 
 </body>
 </html>
